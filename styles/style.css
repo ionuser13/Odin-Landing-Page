@@ -16,14 +16,48 @@ header {
     color: #F9FAF8;
     font-size: 24px;
     padding: 20px 0px;
+    gap: 70px;
 }
 .links-list ul {
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 30px;
 }
 a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: lighter;
 }
+.container .sec1 {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    padding: 115px 0;
+}
+.container .sec1 .text {
+    width: 450px;
+}
+.text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+.text button {
+    background: #3882F6;
+    color: #F9FAF8;
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 8px;
+}
+.container .sec1 img {
+    width: 400px;
+} 
