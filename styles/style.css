@@ -55,15 +55,17 @@ a {
     color: var(--grey);
     font-weight: 300;
 }
-.text button {
-    background: var(--blue);
-    color: var(--white);
+.text button, .box button {
     margin-top: 16px;
     font-size: 16px;
     padding: 8px 36px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+.text button {
+    background: var(--blue);
+    color: var(--white);
 }
 .container .sec1 img {
     width: 400px;
@@ -120,4 +122,31 @@ a {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+}
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+.sec4-container {
+    background-color: var(--blue);
+    padding: 55px 140px;
+    border-radius: 8px;
+}
+.box {
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.box .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+.box button {
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    color: var(--white)
 }
